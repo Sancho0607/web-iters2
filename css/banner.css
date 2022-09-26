@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=League+Spartan:wght@400;500&family=Playfair+Display:ital,wght@1,600&family=Raleway:wght@300;400&display=swap");
+
+:root {
+  --principal: #527561;
+  --navbar: #4f4f4f;
+}
+
+header {
+  width: 80%;
+  margin: 0 auto;
+}
+
+main {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.contenido_banner {
+  background-image: url(/img/banner.webp);
+  background-position: center;
+  background-size: cover;
+  width: 1600px;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.contenido_banner h3 {
+  font-family: "Playfair Display", serif;
+  font-size: 50px;
+}
+
+.span1 {
+  font-family: "League Spartan", sans-serif;
+  font-size: 25px;
+}
+
+.span2 {
+  font-family: "League Spartan", sans-serif;
+  font-size: 25px;
+  padding: 30px 0;
+}
+
+.btn_banner {
+  border: 1px solid #527561;
+  width: 350px;
+  padding: 20px;
+  border-radius: 50px;
+}
+
+.btn_banner a {
+  font-family: "League Spartan", sans-serif;
+  color: var(--principal);
+  font-size: 23px;
+  font-weight: 500;
+}
