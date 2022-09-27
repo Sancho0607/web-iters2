@@ -1,0 +1,32 @@
+:root {
+  --principal: #527561;
+  --navbar: #4f4f4f;
+}
+
+.contenido_domicilio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 150px;
+}
+
+.izq_domicilio {
+  flex: 50%;
+  width: 200px;
+  height: auto;
+  margin: 30px 50px;
+  /* background-color: brown; */
+  text-align: end;
+}
+
+.izq_domicilio h3 {
+  font-size: 50px;
+  font-family: "Playfair Display", serif;
+  color: var(--principal);
+  margin-bottom: 30px;
+}
+.izq_domicilio span {
+  font-size: 22px;
+  font-family: "Raleway", sans-serif;
+  color: var(--navbar);
+}

@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=League+Spartan:wght@500&family=Raleway:wght@300;400&display=swap");
-
 :root {
   --principal: #527561;
   --navbar: #4f4f4f;
@@ -11,6 +9,19 @@
   box-sizing: border-box;
   list-style: none;
   text-decoration: none;
+}
+
+header {
+  width: 80%;
+  margin: 0 auto;
+  position: sticky;
+  z-index: 1;
+  /* border-bottom: 1px solid black; */
+}
+
+main {
+  width: 80%;
+  margin: 0 auto;
 }
 
 /* iconos */

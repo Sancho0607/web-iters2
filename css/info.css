@@ -1,0 +1,50 @@
+:root {
+  --principal: #527561;
+  --navbar: #4f4f4f;
+}
+
+.info {
+  margin: 50px 0px;
+  text-align: center;
+}
+
+.info h4 {
+  color: var(--principal);
+  font-family: "Playfair Display", serif;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.span_info {
+  margin-top: 15px;
+  color: #4f4f4f;
+  font-size: 25px;
+  font-family: "Raleway", sans-serif;
+}
+
+.cartas_info {
+  display: flex;
+  margin-top: 60px;
+  text-align: center;
+  gap: 50px;
+}
+
+.carta_info img {
+  padding: 10px;
+  width: 150px;
+  border: 6px solid var(--principal);
+  border-radius: 50%;
+}
+
+.carta_info h3 {
+  color: var(--principal);
+  font-family: "Raleway", sans-serif;
+  font-size: 25px;
+  margin: 20px 0px;
+}
+
+.carta_info span {
+  color: #4f4f4f;
+  font-size: 22px;
+  font-family: "Raleway", sans-serif;
+}

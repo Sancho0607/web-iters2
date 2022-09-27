@@ -1,0 +1,36 @@
+:root {
+  --principal: #527561;
+  --navbar: #4f4f4f;
+}
+
+.insta_somos {
+  margin-top: 50px;
+}
+
+.span1 {
+  font-size: 32px;
+  color: var(--principal);
+}
+
+.span2 {
+  color: var(--navbar);
+}
+
+.quienes_somos {
+  text-align: center;
+  padding: 50px 30px;
+  background-color: #cacdbf;
+  color: var(--principal);
+}
+
+.quienes_somos h4 {
+  font-family: "Playfair Display", serif;
+  font-size: 50px;
+}
+
+.quienes_somos p {
+  font-size: 22px;
+  padding-top: 20px;
+  font-family: "Raleway", sans-serif;
+  color: var(--navbar);
+}

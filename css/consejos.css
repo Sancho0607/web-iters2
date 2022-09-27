@@ -1,0 +1,51 @@
+:root {
+  --principal: #527561;
+  --navbar: #4f4f4f;
+}
+
+.consejos {
+  display: flex;
+  font-size: 30px;
+  justify-content: center;
+  font-family: "Playfair Display", serif;
+  color: var(--principal);
+  background: #efefef;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.consejos2 {
+  display: flex;
+  background: #efefef;
+  margin: auto;
+  padding: 40px 0;
+}
+
+.foto-consejo {
+  height: 220px;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.consejo-fotos {
+  align-content: center;
+  text-align: center;
+  justify-content: center;
+  margin: 20px 20px;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 1px 1px 11px 0px #00000052;
+}
+
+.consejo-fotos h2 {
+  color: var(--principal);
+  font-size: 22px;
+  padding: 10px 0px;
+  font-family: "Raleway", sans-serif;
+}
+
+.consejo-fotos p {
+  font-size: 20px;
+  color: var(--navbar);
+  font-family: "Raleway", sans-serif;
+}
