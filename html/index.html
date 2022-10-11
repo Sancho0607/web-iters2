@@ -80,28 +80,51 @@
           </button>
         </div>
       </section>
-      <section class="destacados">
-        <h3>Categorias Destacadas</h3>
-        <div class="cartas">
-          <div class="carta">
-            <img src="/img/hurta.jpg" alt="foto" />
-            <a href="#">Huerta</a>
-          </div>
-          <div class="carta">
-            <img src="/img/sillones_colgantes.jpg" alt="foto" />
-            <a href="#">Sillones</a>
-          </div>
-          <div class="carta">
-            <img src="/img/banco-jardin.jpg" alt="foto" />
-            <a href="#">Iluminacion</a>
-          </div>
-          <div class="carta">
-            <img src="/img/descarga.jpg" alt="" />
-            <a href="#">Herramientas</a>
-          </div>
-          <div class="carta">
-            <img src="/img/descarga.jpg" alt="" />
-            <a href="#">Herramientas</a>
+      <section>
+        <h3 class="h3_categorias">Categorias Destacadas</h3>
+        <div class="contenedor_cartas">
+          <div class="cartas">
+            <article>
+              <img src="/img/sillones_colgantes.jpg" alt="" />
+              <div class="a_carta">
+                <a href="http://">Sillas</a>
+              </div>
+            </article>
+
+            <article>
+              <img
+              src=https://res.cloudinary.com/fronda/image/upload/c_lpad,f_auto,w_240,h_400/pimpollo/build/shop/images/categories/huerto.a65bb390.jpg
+              alt="" />
+
+              <a href="http://">Huerto</a>
+            </article>
+
+            <article>
+              <img
+              src=https://res.cloudinary.com/fronda/image/upload/c_lpad,f_auto,w_240,h_400/pimpollo/build/shop/images/categories/iluminacion_jardin.c9440f04.jpg
+              alt="" />
+              <div>
+                <a href="http://">Iluminacion</a>
+              </div>
+            </article>
+
+            <article>
+              <img
+              src=https://res.cloudinary.com/fronda/image/upload/c_lpad,f_auto,w_240,h_400/pimpollo/build/shop/images/categories/hamacas_exterior.1f3d0c87.jpg
+              alt="" />
+              <div>
+                <a href="http://">Reposeras</a>
+              </div>
+            </article>
+
+            <article>
+              <img
+              src=https://res.cloudinary.com/fronda/image/upload/c_lpad,f_auto,w_240,h_400/pimpollo/build/shop/images/categories/macetas_jardineras.a5e368fe.jpg
+              alt="" />
+              <div>
+                <a href="http://">Jardineras</a>
+              </div>
+            </article>
           </div>
         </div>
       </section>
@@ -189,38 +212,7 @@
           </div>
         </div>
       </section>
-      <section class="consejos">
-        <h2>Mira nuestros consejos y novedades</h2>
-      </section>
 
-      <section class="consejos2">
-        <div class="consejo-fotos">
-          <img class="foto-consejo" src="/img/pala.jpg" alt="" />
-          <h2>¿Cuando plantar? La mejor epoca.</h2>
-          <p>
-            Una de las preguntas que siempre surgen es ¿cuando plantar? La mejor
-            epoca para plantar es de mayo a septiembre
-          </p>
-        </div>
-
-        <div class="consejo-fotos">
-          <img class="foto-consejo" src="/img/macetas.jpg" alt="" />
-          <h2>La maceta adecuada para tu ambiente</h2>
-          <p>
-            Incluso la planta mas vigorosa pierde parte de su encanto si esta
-            colocada en un recipiente, eso es fundamental
-          </p>
-        </div>
-
-        <div class="consejo-fotos">
-          <img class="foto-consejo" src="/img/palo.jpeg" alt="" />
-          <h2>Plantas ecologicas</h2>
-          <p>
-            Entre las plantas ecologicas capaces de depurar el aire, la mas
-            famosa es la Beaucarnea “palmera pata de elefante"
-          </p>
-        </div>
-      </section>
       <section class="domicilio">
         <div class="contenido_domicilio">
           <div class="izq_domicilio">
@@ -240,7 +232,30 @@
           </div>
           <span class="span2">No te pierdas nada en @jacintoplantas</span>
         </div>
-        <div class="quienes_somos">
+        <div class="fotos_insta">
+          <div>
+            <a href="https://www.instagram.com/p/CFPdRWZB_Gb/" target="_blank"
+              ><img src="/img/100.jpg" alt="foto"
+            /></a>
+          </div>
+          <div>
+            <a href="https://www.instagram.com/p/CFfeUSkBd9y/" target="_blank"
+              ><img src="/img/101.jpg" alt="foto"
+            /></a>
+          </div>
+          <div>
+            <a href="https://www.instagram.com/p/CI1AxLvBcE3/" target="_blank"
+              ><img src="/img/102.jpg" alt="foto"
+            /></a>
+          </div>
+          <div>
+            <a href="https://www.instagram.com/p/CH0Txp_B2NQ/" target="_blank"
+              ><img src="/img/103.jpg" alt="foto"
+            /></a>
+          </div>
+        </div>
+        <section></section>
+        <!-- <div class="quienes_somos">
           <h4>Quienes somos?</h4>
           <p>
             Somos un emprendimiento familiar dedicado a la fabricación de
@@ -249,7 +264,7 @@
             para la preferencia del cliente. Presentes en el mercado hace más de
             5 años.
           </p>
-        </div>
+        </div> -->
       </section>
     </main>
     <footer>
@@ -265,7 +280,7 @@
           <h4>Atencion</h4>
           <a href="#">Ayuda</a>
           <a href="#">Contacta con nosotros</a>
-          <a href="#"></a>
+          <a href="#">Preguntas frecuentes</a>
         </div>
 
         <div class="carta_footer">
@@ -281,11 +296,13 @@
               ><i class="fa-brands fa-instagram"></i>
             </a>
           </div>
-          <span>Metodos de pago</span>
 
           <div class="pago_footer">
-            <i></i>
-            <i></i>
+            <h4>Metodos de pago</h4>
+            <div>
+              <i class="fa-brands fa-cc-visa"></i>
+              <i class="fa-brands fa-cc-mastercard"></i>
+            </div>
           </div>
         </div>
       </div>

@@ -35,3 +35,14 @@
   font-family: "Raleway", sans-serif;
   color: var(--navbar);
 }
+
+.fotos_insta {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.fotos_insta img {
+  height: 380px;
+  width: 380px;
+}

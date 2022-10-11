@@ -3,30 +3,55 @@
   --navbar: #4f4f4f;
 }
 
-.destacados h3 {
+.cartas {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  text-align: center;
+  gap: 7px;
+  border-radius: 5px;
+}
+
+.h3_categorias {
   font-size: 30px;
   font-family: "League Spartan", sans-serif;
-  color: #333333;
+  margin-bottom: 20px;
+  color: var(--navbar);
 }
 
-.cartas {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 50px;
-}
-
-.carta {
+/* .cartas article {
+  text-align: center;
   display: flex;
   flex-direction: column;
-  text-align: center;
-  padding: 20px 0px;
-  position: relative;
-  align-items: center;
   justify-content: center;
-  overflow: hidden;
+  align-content: center;
+  position: relative;
+} */
+
+.cartas article {
+  position: relative;
 }
 
-.carta img {
+.cartas article img {
+  border-radius: 6px;
   width: 300px;
-  height: 350px;
+}
+
+.a_carta {
+  position: relative;
+  text-align: center;
+}
+
+.cartas article a {
+  font-size: 20px;
+  color: var(--principal);
+  border: 3px solid var(--principal);
+  padding: 10px 25px;
+  background-color: #fff;
+  border-radius: 50px;
+  font-family: "Raleway", sans-serif;
+  position: absolute;
+  right: 77px;
+  bottom: 90px;
 }

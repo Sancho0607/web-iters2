@@ -48,6 +48,17 @@ footer {
   color: var(--principal);
   margin-bottom: 5px;
 }
+
+.pago_footer {
+  color: var(--principal);
+  font-size: 35px;
+}
+
+/* .pago_footer span {
+  color: var(--principal);
+  font-size: 35px;
+} */
+
 /* DERECHOS RESERVADOS */
 
 .derechos_reservados {
