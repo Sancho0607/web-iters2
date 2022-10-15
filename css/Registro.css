@@ -31,6 +31,7 @@
   align-items: center;
   color: var(--navbar);
   background-color: #fff;
+  border-radius: 6px;
 }
 
 section {
@@ -59,12 +60,6 @@ label {
 
 .check {
   padding: 10px;
-}
-
-.check .checkbox_regis {
-  color: #527561;
-  background-color: #527561;
-  font-size: 5px;
 }
 
 button {

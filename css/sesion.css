@@ -1,0 +1,73 @@
+:root {
+  --principal: #527561;
+  --navbar: #4f4f4f;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  height: 60vh;
+  width: 600px;
+  border: 1px solid var(--principal);
+  margin: 0 auto;
+  /* margin-top: 50px; */
+  align-items: center;
+  border-radius: 6px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 25px;
+  color: var(--navbar);
+  margin: 30px 0;
+}
+
+.link_sesion {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+input {
+  font-size: 20px;
+  padding: 10px;
+  width: 350px;
+  margin-bottom: 20px;
+  border: 1px solid var(--principal);
+}
+
+section {
+  background-image: url(/img/sesion.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 50px;
+}
+
+label {
+  font-size: 20px;
+  color: var(--navbar);
+  text-align: start;
+}
+
+span {
+  font-size: 20px;
+  color: var(--navbar);
+}
+
+button {
+  padding: 10px;
+  width: 300px;
+  font-size: 25px;
+  background-color: var(--principal);
+  color: #fff;
+  border-radius: 50px;
+  border: 1px solid #527561;
+  margin: 20px 0;
+  cursor: pointer;
+}
+
+.a_sesion {
+  font-size: 20px;
+  color: var(--principal);
+  font-weight: bold;
+}
